@@ -18,10 +18,10 @@ import {
   GithubIcon,
   LinkedinIcon,
   MailIcon,
-  MoonIcon,
-  SunIcon,
+  // MoonIcon,
+  // SunIcon,
+  //Truck,
   ExternalLinkIcon,
-  Truck,
 } from "lucide-react";
 
 export default function Portfolio() {
@@ -77,13 +77,13 @@ export default function Portfolio() {
               checked={darkMode}
               onCheckedChange={setDarkMode}
               className="ml-4"
-              icon={
-                darkMode ? (
-                  <MoonIcon className="h-4 w-4" />
-                ) : (
-                  <SunIcon className="h-4 w-4" />
-                )
-              }
+              // icon={
+              //   darkMode ? (
+              //     <MoonIcon className="h-4 w-4" />
+              //   ) : (
+              //     <SunIcon className="h-4 w-4" />
+              //   )
+              // }
             />
           </nav>
         </div>
@@ -205,9 +205,9 @@ export default function Portfolio() {
                 key={index}
                 className="overflow-hidden hover:shadow-xl transition-shadow duration-300"
               >
-                <img
-                  src={project.image}
-                  alt={project.title}
+                <image
+                  href={project.image}
+                  //alt={project.title}
                   className="w-full h-48 object-cover"
                 />
                 <CardHeader>
