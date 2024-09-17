@@ -1,5 +1,4 @@
 // components/Typewriter.tsx
-import { useState, useEffect } from "react";
 
 // components/Loader.tsx
 const Loader = () => {

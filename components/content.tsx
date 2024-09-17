@@ -239,7 +239,7 @@ export default function Portfolio() {
             <CardHeader>
               <CardTitle>Send a Message</CardTitle>
               <CardDescription>
-                I'm always open to new opportunities and collaborations
+                Im always open to new opportunities and collaborations
               </CardDescription>
             </CardHeader>
             <CardContent>
