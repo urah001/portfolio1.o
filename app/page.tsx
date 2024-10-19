@@ -129,12 +129,20 @@ export default function Portfolio() {
               {
                 title: "hrsite",
                 description: "landing page containing a hero section , contact , service section",
-                image: "/placeholder.svg", // Ensure this path is correct
+                image: "./hr.svg", 
+                link: "https://urahhrsite.vercel.app",
               },
               {
-                title: "AI Chatbot",
-                description: "A machine learning powered chatbot using Python and TensorFlow, capable of natural language processing and integration with various platforms.",
-                image: "/placeholder.svg", // Ensure this path is correct
+                title: "clinico",
+                description: "ClinicFinder helps users quickly locate the nearest clinics based on their location, providing essential information like hours and services for efficient healthcare access.",
+                image: "/placeholder.svg", 
+                link:"https://github.com/urah001/Doctor-Appointment-Booking-Web-Nextjs",
+              },
+              {
+                title: "NIDS",
+                description: "NIDS (Network Intrusion Detection System) utilizes machine learning to scan and detect intrusions on a network, enhancing security by identifying potential threats in real-time.",
+                image: "/placeholder.svg", 
+                link:"https://github.com/urah001/wiresharkDataset",
               },
             ].map((project, index) => (
               <Card key={index} className="overflow-hidden hover:shadow-xl transition-shadow duration-300">
@@ -209,4 +217,3 @@ export default function Portfolio() {
     </div>
   );
 }
-
